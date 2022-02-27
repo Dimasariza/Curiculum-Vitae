@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+}
+
+.profile {
+  width: 100%;
+  background-color: #8fa6cd;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nama {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 4px;
+  color: #413f6c;
+  text-align: center;
+}
+
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  width: 370px;
+}
+
+.profile-picture img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.konten {
+  display: grid;
+  grid-template-columns: auto 60%;
+  font-family: "Lato";
+  color: #413f6c;
+}
+
+.education h3 {
+  margin: 20px;
+  letter-spacing: 2px;
+  color: #ede8da;
+  text-align: center;
+}
+
+.organisasi h3 {
+  margin: 20px;
+  letter-spacing: 2px;
+  color: #ede8da;
+  text-align: center;
+}
+
+.kiri {
+  background-color: #e3928b;
+}
+
+.kanan {
+  background-color: #ede8da;
+}
+
+.kanan h3 {
+  margin: 20px;
+  letter-spacing: 2px;
+  color: #e3928b;
+  text-align: center;
+}
+
+.taun1,
+.taun2 {
+  display: flex;
+  justify-content: start;
+}
+
+.taun,
+.experience {
+  margin: 10px 30px;
+}
+
+.footer {
+  background-color: #413f6c;
+  text-align: center;
+  color: #ede8da;
+  text-transform: uppercase;
+  padding: 10px;
+  letter-spacing: 2px;
+  font-family: "Lato";
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .profile-picture {
+    margin-bottom: 30px;
+  }
+
+  .konten {
+    display: grid;
+    grid-template-columns: auto;
+    /* grid-row: 2; */
+  }
+}
