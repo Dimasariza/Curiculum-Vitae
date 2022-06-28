@@ -1,1 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T03:13:11.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="16.6.4" etag="tINU612rQMXa_-i36yTv" type="github"><diagram id="Qhyc-NQvpugEME5w_f3N">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-28T04:39:46.105Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="7CfZvKlIi0NTSLAVlWEP" version="16.6.4" type="github">
+  <diagram id="Qhyc-NQvpugEME5w_f3N" name="Page-1">
+    <mxGraphModel dx="868" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X8CNLGyJejKRlvkcW7by-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="100" width="59" height="39.33" as="geometry" />
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-2" value="Get sheet by name (&#39;Raw Data&#39;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339.5" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="X8CNLGyJejKRlvkcW7by-1" target="X8CNLGyJejKRlvkcW7by-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="260" as="sourcePoint" />
+            <mxPoint x="430" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-4" value="Get ship city values" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339.5" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="X8CNLGyJejKRlvkcW7by-2" target="X8CNLGyJejKRlvkcW7by-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="340" as="sourcePoint" />
+            <mxPoint x="430" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-6" value="Change the letter to capital" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339.5" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X8CNLGyJejKRlvkcW7by-4" target="X8CNLGyJejKRlvkcW7by-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="330" as="sourcePoint" />
+            <mxPoint x="430" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X8CNLGyJejKRlvkcW7by-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="399.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-11" value="Are there&lt;br&gt;ship city &lt;br&gt;sheet?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349.5" y="340" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="X8CNLGyJejKRlvkcW7by-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="490" as="sourcePoint" />
+            <mxPoint x="400" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-13" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="440" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-14" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="449.5" y="400" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="X8CNLGyJejKRlvkcW7by-11" target="X8CNLGyJejKRlvkcW7by-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="360" as="sourcePoint" />
+            <mxPoint x="520" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-16" value="Add ship &lt;br&gt;city sheet" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-17" value="address = From raw data sheet get customer address" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339.5" y="460" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-18" value="name = From raw data sheet get customer name" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339.5" y="529" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X8CNLGyJejKRlvkcW7by-17" target="X8CNLGyJejKRlvkcW7by-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="580" as="sourcePoint" />
+            <mxPoint x="510" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.5" y="580" as="sourcePoint" />
+            <mxPoint x="400" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-21" value="order id = From raw data sheet get order id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339.5" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="X8CNLGyJejKRlvkcW7by-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.5" y="660" as="sourcePoint" />
+            <mxPoint x="400" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-23" value="city = From raw data sheet get ship city" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339.5" y="670" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-24" value="sheet &amp;lt;city&amp;gt; set formula [address, name, order id]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="339.5" y="730" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X8CNLGyJejKRlvkcW7by-23" target="X8CNLGyJejKRlvkcW7by-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="780" as="sourcePoint" />
+            <mxPoint x="450" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-27" value="Finish" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="800" width="59" height="39.33" as="geometry" />
+        </mxCell>
+        <mxCell id="X8CNLGyJejKRlvkcW7by-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="X8CNLGyJejKRlvkcW7by-24" target="X8CNLGyJejKRlvkcW7by-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="800" as="sourcePoint" />
+            <mxPoint x="420" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
